@@ -25,9 +25,9 @@ def index(request: Request) -> Any:
     """Basic HTML response."""
     body = (
         "<html>"
+        "<style>body {background-image: url('https://images.static-collegedunia.com/public/college_data/images/campusimage/15622400560.jpg'); background-size: cover}</style>"
         "<body style='padding: 10px;'>"
-        "<h1 style='background-color:LightGray;'><center>Bikeshare Application</center></h1>"
-        "<h2>Welcome to the API</h2>"
+        "<h1>Welcome to the API 2.0</h1>"
         "<div>"
         "Check the docs: <a href='/docs'>here</a>"
         "</div>"
